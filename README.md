@@ -38,7 +38,7 @@ O Plant Manager é um app para lembrar as pessoas de regar as suas plantinhas.
 
 ## :art: Layout
 
-Você pode acessar o Layout pelo <a href="https://www.figma.com">Figma<a> atravês <a href="https://www.figma.com/file/sPtgdHw6gl5iCtOmauO1y1/PlantManager-(Copy)?node-id=0%3A1">desse link<a>.
+Você pode acessar o Layout pelo <a href="https://www.figma.com">Figma<a> atravês <a href="https://www.figma.com/file/og3jMpqAM7YgoataMIiKDE/PlantManager_NLW-5?node-id=0%3A1&t=uLnvli87SaWoCJUW-1">desse link<a>.
 
 ## 🛠 Tecnologias
 
@@ -67,10 +67,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório.
-$ git clone https://github.com/alexandredev3/plantmanager-nlw05.git
+$ git clone https://github.com/jonasbfranco/Plantmanager_NLW-5.git
 
 # Vá para a pasta plantmanager-nlw05
-$ cd plantmanager-nlw05
+$ cd Plantmanager_NLW-5
 
 # Instale as dependências
 $ npm install
@@ -83,19 +83,19 @@ $ npm run start
 
 ## :man: Autor
 
-<a href="https://github.com/alexandredev3/">
- <img src="https://avatars0.githubusercontent.com/u/61118233?s=400&u=37870397a9363ce5e768975c05e95a5f5d323ca1&v=4" width="70px;" alt=""/>
+<a href="https://github.com/jonasbfranco/">
+ <img src="https://avatars.githubusercontent.com/u/17801275?s=200&v=4" width="70px;" alt=""/>
  <br />
- <sub><b>Alexandre Costa</b></sub>
+ <sub><b>Jonas B. Franco</b></sub>
 </a>
 
-Feito com ❤️ por Alexandre Costa :wave::wave: Entre em contato!🚀
+Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato!🚀
 
-<a href="https://www.linkedin.com/in/alexandre-costa-dos-santos">
-  <img alt="Linkedin" src="https://img.shields.io/badge/-Alexandre%20Costa-9871F5?label=Linkedin&logo=linkedin&style=flat-square">
+<a href="https://www.linkedin.com/in/jonasbfranco">
+  <img alt="Linkedin" src="https://img.shields.io/badge/jonasbfranco?label=Linkedin&logo=linkedin&style=flat-square">
 </a>
 
 ## :memo: Licença
 
-Copyright © 2020 [Alexandre Costa](https://github.com/alexandredev3).<br />
+Copyright © 2020 [Jonas B. Franco](https://github.com/jonasbfranco).<br />
 This project is [MIT](./.github/LICENSE.txt) licensed.
