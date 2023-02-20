@@ -12,29 +12,19 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { SvgFromUri } from "react-native-svg";
-import { useRoute }from '@react-navigation/native';
-import DateTimePicker, { Event } from "@react-native-community/datetimepicker";
+import { useRoute, useNavigation }from '@react-navigation/native';
+import RNDateTimePicker, { Event } from "@react-native-community/datetimepicker";
+import { format, isBefore } from "date-fns";
 
 import waterdrop from "../assets/waterdrop.png";
 import { Button } from "../components/Button";
+import { loadPlant, PlantProps, savePlant } from "../libs/storage";
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
-import { format, isBefore } from "date-fns";
 
 
 interface Params {
-    plant: {
-        id: string;
-        name: string;
-        about: string;
-        water_tips: string;
-        photo: string;
-        environments: [string];
-        frequency: {
-            times: number;
-            repeat_every: string;
-        };
-    }
+    plant: PlantProps
 }
 
 export function PlantSave() {
@@ -43,6 +33,8 @@ export function PlantSave() {
 
     const route = useRoute();
     const { plant } = route.params as Params;
+    
+    const navigation = useNavigation();
 
     function handleChangeTime(event: Event, dateTime: Date | undefined){
         if(Platform.OS === 'android'){
@@ -62,6 +54,29 @@ export function PlantSave() {
     function handleOpenDateTimePickerAndroid(){
         setShowDataPicker(oldState => !oldState);
         // console.log('Android');
+    }
+
+    async function handleSave() {
+      // const data = await loadPlant();
+      // console.log(data);
+
+      try {
+          await savePlant({
+              ...plant,
+              dateTimeNotification: selectedDateTime
+          })
+
+          navigation.navigate("Confirmation", {
+            title: 'Tudo certo',
+            subTitle: 'fique tranquilo que sempre vamos lembrar você de cuidar da sua plantinha com muito cuidado.',
+            buttomTitle: 'Muito Obrigado :D',
+            icon: 'hug',
+            nextScreen: 'MyPlants',
+          });
+
+      } catch {
+          Alert.alert('Nâo foi possível salvar. 😥'); 
+      }
     }
 
   return (
@@ -95,13 +110,20 @@ export function PlantSave() {
                     Escolha o melhor horário para ser lembrado:
                 </Text>
 
+                {/* <RNDateTimePicker positiveButton={{label: 'OK', textColor: 'green'}} /> */}
+
                 {showDataPicker && (
-                    <DateTimePicker
+                    <RNDateTimePicker
                         value={selectedDateTime}
                         mode="time"
-                        display="spinner"
+                        // display="spinner"
+                        display={Platform.OS === 'ios' ? 'spinner' : 'default'}
+                        themeVariant="light" 
+                        // locale="pt-BR"
+                        // is24Hour={true}
                         onChange={handleChangeTime}
                     />
+                    
                 )}
 
                 {
@@ -119,7 +141,7 @@ export function PlantSave() {
 
                 <Button 
                     title="Cadastrar Planta" 
-                    onPress={() => {}} 
+                    onPress={handleSave} 
                 />
             </View>
         {/* </View> */}

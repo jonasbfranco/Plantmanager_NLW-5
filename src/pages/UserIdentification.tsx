@@ -43,9 +43,20 @@ export function UserIdentification() {
   async function handleSubmit() {
     if (!name) return Alert.alert("Me diz como chamar você 😥");
 
-    await AsyncStorage.setItem("@platmanager:user", name);
+    try{
+      await AsyncStorage.setItem("@platmanager:user", name);
+      
+      navigation.navigate("Confirmation", {
+        title: 'Prontinho',
+        subTitle: 'Agora vamos começar a cuidar das suas plantinhas com muito cuidado.',
+        buttomTitle: 'Começar',
+        icon: 'smile',
+        nextScreen: 'PlantSelect',
+      });
+    }catch{
+      Alert.alert("Nâo foi possível salvar o seu nome. 😥");
+    }
 
-    navigation.navigate("Confirmation");
   }
 
   return (
