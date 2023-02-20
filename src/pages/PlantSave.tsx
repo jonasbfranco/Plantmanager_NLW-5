@@ -61,7 +61,7 @@ export function PlantSave() {
 
     function handleOpenDateTimePickerAndroid(){
         setShowDataPicker(oldState => !oldState);
-        console.log('Android');
+        // console.log('Android');
     }
 
   return (
