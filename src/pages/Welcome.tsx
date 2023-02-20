@@ -28,6 +28,7 @@ export function Welcome() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
+        {/* cor da barra onde esta a hora e o status da rede 4g */}
         <StatusBarColor />
 
         <Text style={styles.title}>

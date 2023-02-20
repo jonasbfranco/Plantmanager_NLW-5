@@ -34,6 +34,9 @@ yarn add axios
 npm install -g json-server
 expo install react-native-svg
 npx expo install lottie-react-native
+npx expo install @react-native-async-storage/async-storage
+npx expo install @react-native-community/datetimepicker
+yarn add date-fns
 
 ## Fontes
 
@@ -45,11 +48,11 @@ ipconfig getifaddr en0
 
 ## Backend json-server
 
-json-server ./src/services/services.json --host 192.168.1.188 --port 3333
+json-server ./src/services/server.json --host 192.168.1.188 --port 3333
 
 #### com delay de 700 ms
 
-json-server ./src/services/services.json --host 192.168.1.188 --port 3333 --delay 700
+json-server ./src/services/server.json --host 192.168.1.188 --port 3333 --delay 700
 
 ### Sites
 

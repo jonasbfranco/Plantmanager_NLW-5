@@ -6,6 +6,7 @@ import { Welcome } from "../pages/Welcome";
 import { UserIdentification } from "../pages/UserIdentification";
 import { Confirmation } from "../pages/Confirmation";
 import { PlantSelect } from "../pages/PlantSelect";
+import { PlantSave } from "../pages/PlantSave";
 
 const StackRoutes = createNativeStackNavigator();
 
@@ -37,7 +38,12 @@ function AppRoutes() {
         <StackRoutes.Screen
           name="PlantSelect"
           component={PlantSelect}
-          options={{ headerShown: false, title: "PlantSelect" }}
+          options={{ headerShown: false, title: "Selecionar Planta" }}
+        />
+        <StackRoutes.Screen
+          name="PlantSave"
+          component={PlantSave}
+          options={{ headerShown: false, title: "Salvar Planta" }}
         />
       </StackRoutes.Navigator>
     </NavigationContainer>
