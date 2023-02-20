@@ -2,22 +2,16 @@
   <img width="450px" src="./.github/assets/logo.svg" />
   <br />
   <a href="https://www.linkedin.com/in/jonasbfranco">
-    <img alt="Linkedin" src="https://img.shields.io/badge/-Alexandre%20Costa-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
+    <img alt="Linkedin" src="  https://img.shields.io/badge/jonasbfranco?LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/blob/main/.github/LICENSE.txt">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/alexandredev3/plantmanager-nlw05?logo=mint&style=flat-square">
+  <a href="https://github.com/jonasbfranco/Plantmanager_NLW-5/blob/main/.github/LICENSE.txt">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/jonasbfranco/Plantmanager_NLW-5?logo=mint&style=flat-square">
   </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/alexandredev3/plantmanager-nlw05?color=29B6D1&style=flat-square">
+  <a href="https://github.com/jonasbfranco/Plantmanager_NLW-5/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/jonasbfranco/Plantmanager_NLW-5?color=29B6D1&style=flat-square">
   </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/issues?q=is%3Aissue+is%3Aclosed">
-    <img alt="GitHub issues" src="https://badgen.net/github/closed-issues/alexandredev3/plantmanager-nlw05?color=29B6D1&style=flat-square">
-  </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/network">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/alexandredev3/plantmanager-nlw05?color=29B6D1&style=flat-square">
-  </a>
-  <a href="https://github.com/alexandredev3/podcastr-nlw05/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/alexandredev3/plantmanager-nlw05?color=29B6D1&style=flat-square">
+  <a href="https://github.com/jonasbfranco/podcastr-nlw05/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/jonasbfranco/Plantmanager_NLW-5?color=29B6D1&style=flat-square">
   </a>
 </h1>
 <p align="center">
@@ -69,7 +63,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone este repositório.
 $ git clone https://github.com/jonasbfranco/Plantmanager_NLW-5.git
 
-# Vá para a pasta plantmanager-nlw05
+# Vá para a pasta Plantmanager_NLW-5
 $ cd Plantmanager_NLW-5
 
 # Instale as dependências
@@ -92,7 +86,7 @@ $ npm run start
 Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato!🚀
 
 <a href="https://www.linkedin.com/in/jonasbfranco">
-  <img alt="Linkedin" src="https://img.shields.io/badge/jonasbfranco?label=Linkedin&logo=linkedin&style=flat-square">
+  <img alt="Linkedin" src="  https://img.shields.io/badge/jonasbfranco?LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 ## :memo: Licença
