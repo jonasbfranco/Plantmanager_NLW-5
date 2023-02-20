@@ -2,16 +2,16 @@
   <img width="450px" src="./.github/assets/logo.svg" />
   <br />
   <a href="https://www.linkedin.com/in/jonasbfranco">
-    <img alt="Linkedin" src="  https://img.shields.io/badge/jonasbfranco?LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white">
   </a>
   <a href="https://github.com/jonasbfranco/Plantmanager_NLW-5/blob/main/.github/LICENSE.txt">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/jonasbfranco/Plantmanager_NLW-5?logo=mint&style=flat-square">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/jonasbfranco/Plantmanager_NLW-5?style=for-the-badge">
   </a>
   <a href="https://github.com/jonasbfranco/Plantmanager_NLW-5/network">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/jonasbfranco/Plantmanager_NLW-5?color=29B6D1&style=flat-square">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/jonasbfranco/Plantmanager_NLW-5?style=for-the-badge">
   </a>
   <a href="https://github.com/jonasbfranco/podcastr-nlw05/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/jonasbfranco/Plantmanager_NLW-5?color=29B6D1&style=flat-square">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/jonasbfranco/Plantmanager_NLW-5?style=for-the-badge">
   </a>
 </h1>
 <p align="center">
@@ -32,7 +32,7 @@ O Plant Manager é um app para lembrar as pessoas de regar as suas plantinhas.
 
 ## :art: Layout
 
-Você pode acessar o Layout pelo <a href="https://www.figma.com">Figma<a> atravês <a href="https://www.figma.com/file/og3jMpqAM7YgoataMIiKDE/PlantManager_NLW-5?node-id=0%3A1&t=uLnvli87SaWoCJUW-1">desse link<a>.
+Você pode acessar o Layout pelo <a href="https://www.figma.com">Figma<a> atravês <a href="https://www.figma.com/file/og3jMpqAM7YgoataMIiKDE/Plantmanager_NLW-5?node-id=0%3A1&t=uLnvli87SaWoCJUW-1">desse link<a>.
 
 ## 🛠 Tecnologias
 
@@ -86,7 +86,7 @@ $ npm run start
 Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato!🚀
 
 <a href="https://www.linkedin.com/in/jonasbfranco">
-  <img alt="Linkedin" src="  https://img.shields.io/badge/jonasbfranco?LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white">
 </a>
 
 ## :memo: Licença
