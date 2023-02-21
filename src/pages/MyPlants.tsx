@@ -6,15 +6,19 @@ import {
     Image,
     FlatList,
 } from 'react-native';
+// import { FlatList } from 'react-native-gesture-handler';
 
 import { Header } from '../components/Header';
 
 import waterdrop from '../assets/waterdrop.png';
 import colors from '../styles/colors';
-import { formatDistance } from 'date-fns';
-import { pt } from 'date-fns/locale';
-import { loadPlant, PlantProps } from '../libs/storage';
 import fonts from '../styles/fonts';
+
+import { pt } from 'date-fns/locale';
+
+import { formatDistance } from 'date-fns';
+import { loadPlant, PlantProps } from '../libs/storage';
+import { PlantCardSecondary } from '../components/PlantCardSecondary';
 
 
 export function MyPlants(){
@@ -46,9 +50,9 @@ export function MyPlants(){
 
     return (
         <>
-        <View style={styles.header}>
-            <Header />
-        </View>
+            <View style={styles.header}>
+                <Header />
+            </View>
             <View style={styles.container}>
 
                 <View style={styles.spotlight}>
@@ -66,15 +70,17 @@ export function MyPlants(){
                         Próximas regadas
                     </Text>
 
-                    <FlatList
-                        data={myPlants}
-                        keyExtractor={(item) => String(item.id)}
-                        renderItem={({item}) => (
-                            <Text>Elemento</Text>
-                        )}
-                        showsVerticalScrollIndicator={false}
-                        contentContainerStyle={{ flex: 1 }}
-                    />
+                    {/* <View style={{ flex: 1, width: '100%' }}> */}
+                        <FlatList
+                            data={myPlants}
+                            keyExtractor={(item) => String(item.id)}
+                            renderItem={({item}) => (
+                                <PlantCardSecondary data={item}/>
+                            )}
+                            showsVerticalScrollIndicator={false}
+                            // contentContainerStyle={{ flex: 1 }}
+                        />
+                    {/* </View> */}
                 </View>
             </View>
         </>

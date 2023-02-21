@@ -37,6 +37,7 @@ npx expo install lottie-react-native
 npx expo install @react-native-async-storage/async-storage
 npx expo install @react-native-community/datetimepicker
 yarn add date-fns
+expo install react-native-gesture-handler
 
 ## Fontes
 

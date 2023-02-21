@@ -8,6 +8,7 @@ import { Confirmation } from "../pages/Confirmation";
 import { PlantSelect } from "../pages/PlantSelect";
 import { PlantSave } from "../pages/PlantSave";
 import { MyPlants } from "../pages/MyPlants";
+import AuthRoutes from "./tabs.routes";
 
 const StackRoutes = createNativeStackNavigator();
 
@@ -38,7 +39,7 @@ function AppRoutes() {
         />
         <StackRoutes.Screen
           name="PlantSelect"
-          component={PlantSelect}
+          component={AuthRoutes}
           options={{ headerShown: false, title: "Selecionar Planta" }}
         />
         <StackRoutes.Screen
@@ -48,7 +49,7 @@ function AppRoutes() {
         />
         <StackRoutes.Screen
           name="MyPlants"
-          component={MyPlants}
+          component={AuthRoutes}
           options={{ headerShown: false, title: "Minhas Plantas" }}
         />
       </StackRoutes.Navigator>
