@@ -12,13 +12,18 @@ const AuthRoutes = () => {
     return (
         <AppTab.Navigator 
             screenOptions={{
-                activeTintColor: colors.green,
-                inactiveTintColor: colors.heading,
-                labelPosition: 'beside-icon',
-                style: {
-                    paddingVertical: 20,
-                    height: 88,
+                tabBarActiveTintColor: colors.green,
+                tabBarInactiveTintColor: colors.heading,
+                tabBarLabelPosition: 'beside-icon', 
+                // activeTintColor: colors.green,
+                // inactiveTintColor: colors.heading,
+                // labelPosition: 'beside-icon',
+                tabBarStyle: {
+                    // paddingVertical: 10,
+                    height: 60,
                 }
+                
+                
             }}
 
         >
@@ -26,6 +31,7 @@ const AuthRoutes = () => {
                 name='Nova Planta'
                 component={PlantSelect}
                 options={{
+                    headerShown: false,
                     tabBarIcon: (({ size, color }) => (
                     <MaterialIcons
                         name='add-circle-outline'
@@ -40,6 +46,7 @@ const AuthRoutes = () => {
                 name='Minhas Plantas'
                 component={MyPlants}
                 options={{
+                    headerShown: false,
                     tabBarIcon: (({ size, color }) => (
                     <MaterialIcons
                         name='format-list-bulleted'
