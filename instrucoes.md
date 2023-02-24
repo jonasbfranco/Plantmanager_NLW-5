@@ -53,7 +53,7 @@ json-server ./src/services/server.json --host 192.168.1.188 --port 3333
 
 #### com delay de 700 ms
 
-json-server ./src/services/server.json --host 192.168.1.188 --port 3333 --delay 700
+json-server ./src/services/server.json --host 192.168.1.198 --port 3333 --delay 700
 
 ### Sites
 

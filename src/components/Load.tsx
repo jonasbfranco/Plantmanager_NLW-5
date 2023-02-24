@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   animation: {
-    backgroundColor: "transparent",
+    flex: 1,
     width: 200,
     height: 200,
   },

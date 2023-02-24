@@ -18,6 +18,7 @@ import { Load } from "../components/Load";
 import { PlantProps } from "../libs/storage";
 
 import api from "../services/api";
+import AuthRoutes from "../routes/tabs.routes";
 
 interface EnviromentProps {
   key: string;
@@ -108,7 +109,9 @@ export function PlantSelect() {
   }, []);
 
   // retornando loading
-  if (loading) return <Load />;
+  if (loading) {
+    return <Load />;
+  }
 
   return (
     <View style={styles.container}>
