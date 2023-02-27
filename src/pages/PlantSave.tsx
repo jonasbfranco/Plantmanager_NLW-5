@@ -81,7 +81,11 @@ export function PlantSave() {
 
   return (
     <SafeAreaView style={styles.container}>
-        {/* <View style={styles.container}> */}
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.container}
+      >
+        <View style={styles.container}>
             <View style={styles.plantInfo}>
                 <SvgFromUri 
                     uri={plant.photo} 
@@ -144,7 +148,8 @@ export function PlantSave() {
                     onPress={handleSave} 
                 />
             </View>
-        {/* </View> */}
+        </View>
+        </ScrollView>
     </SafeAreaView>
   );
 }
@@ -157,8 +162,9 @@ const styles = StyleSheet.create({
   },
   plantInfo:{
     flex: 1,
-    paddingHorizontal: 30,
-    paddingVertical: 50,
+    // paddingHorizontal: 30,
+    // paddingVertical: 50,
+    paddingBottom: 30,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.shape,

@@ -19,6 +19,7 @@ import { pt } from 'date-fns/locale';
 import { formatDistance } from 'date-fns';
 import { loadPlant, PlantProps } from '../libs/storage';
 import { PlantCardSecondary } from '../components/PlantCardSecondary';
+import { Load } from '../components/Load';
 
 
 export function MyPlants(){
@@ -46,8 +47,12 @@ export function MyPlants(){
 
         loadStorageDate();
 
-},[]);
+    },[]);
 
+
+    if (loading) {
+        return <Load />
+    }
     return (
         <>
             <View style={styles.header}>
