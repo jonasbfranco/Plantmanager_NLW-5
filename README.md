@@ -72,7 +72,10 @@ $ npm install
 # Execute aplicação
 $ npm run start
 
-# Leia o Código QR com Expo Client que você baixou no seu dispositivo, não se esqueça de colocar o seu endereço ip lan no diretório ./src/services/api na baseURL.
+# Leia o Código QR com Expo Client que você baixou no seu dispositivo, 
+# não se esqueça de colocar o seu endereço ip lan no 
+# diretório ./src/services/api na baseURL.
+  
 ```
 
 ## :man: Autor
