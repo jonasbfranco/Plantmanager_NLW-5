@@ -86,7 +86,7 @@ $ npm run start
  <sub><b>Jonas B. Franco</b></sub>
 </a>
 
-Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato!🚀
+Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato! 🚀
 
 <a href="https://www.linkedin.com/in/jonasbfranco">
   <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white">
