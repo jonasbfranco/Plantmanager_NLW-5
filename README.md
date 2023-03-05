@@ -91,5 +91,5 @@ Feito com ❤️ por Jonas B. Franco :wave::wave: Entre em contato!🚀
 
 ## :memo: Licença
 
-Copyright © 2020 [Jonas B. Franco](https://github.com/jonasbfranco).<br />
-This project is [MIT](./.github/LICENSE.txt) licensed.
+Copyright © 2023 [Jonas B. Franco](https://github.com/jonasbfranco).<br />
+This project is [MIT](https://github.com/jonasbfranco/Plantmanager_NLW-5/blob/main/.github/LICENSE.txt) licensed.
